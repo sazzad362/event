@@ -1,0 +1,50 @@
+/*------------------------------------------------------------------
+
+  * Template Nam: Event Template For Getshop
+  * Template UR:  https://sazzad362.com/
+  * Description:  --------
+  * Author:       Md Sazzad Hossain
+  * Author URI:   https://sazzad362.com/
+  * Version:      1.0.0
+  * Last update:  16-07-2019
+
+ * -----------------------------------------------------------------*
+ *                         TABLE OF CONTENTS                        *
+ * -----------------------------------------------------------------*
+ *
+	00. Plugins;
+	01. base;
+	02. Header;
+ *
+
+ * -----------------------------------------------------------------*
+ *                        Color Codes                               *
+ * -----------------------------------------------------------------*
+
+	$brand_color: #ff5252;
+
+-------------------------------------------------------------------*/
+/*
+	=================================
+		@Loaded All Plugins
+		@Sazzad362
+	=================================
+*/
+/* 
+ * Embed Google Font
+ * 'Catamaran', sans-serif;
+ *font-family: 'Roboto', sans-serif;
+*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500,700&display=swap");
+/* 
+ * Bootstrap 3.3.7 (https://getbootstrap.com/)
+ * Copyright 2011-2018 The Bootstrap Authors
+ * Copyright 2011-2018 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+*/
+@import url("../css/bootstrap.min.css");
+/* 
+ *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+*/
+@import url("../css/font-awesome.min.css");
