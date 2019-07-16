@@ -68,6 +68,11 @@ html, body {
   height: calc(100vh - 150px);
 }
 
+@media (min-width: 1920px) {
+  #event_header {
+    height: calc(60vh - 150px);
+  }
+}
 .header_content_area img {
   width: 100%;
   box-shadow: 2px 1px 8px 1px #572b6a;
