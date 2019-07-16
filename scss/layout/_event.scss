@@ -89,3 +89,150 @@ html,body{
 		border-color: #02B8BE;
 	}
 }
+
+#event_details{
+	padding: 40px 0;
+	.ev_artical{
+		background: #f8f8f8;
+		padding: 15px;
+		box-shadow: 1px 3px 8px 3px #ddd;
+		transition: all 0.9s ease;
+		.ev_title{
+			h1{
+				font-size: 20px;
+				font-weight: bold;
+				margin-top: 0;
+			}
+			h4{
+				font-size: 18px;
+				color:#F59A0D;
+			}
+		}
+		&:hover{
+			box-shadow: none;
+		}
+	}
+	.ev_details{
+		h1{
+			font-size: 16px;
+			font-weight: bold;
+			text-transform: uppercase;
+			color: #404040;
+			margin-top: 0;
+		}
+	}
+	
+}
+
+#address{
+	padding: 40px 0;
+	.map_addres{
+		background: #f8f8f8;
+		box-shadow: 1px 3px 8px 3px #ddd;
+		transition: all 0.9s ease;
+		&:hover{
+			box-shadow: none;
+		}
+	}
+	.ev_address{
+		h1{
+			font-size: 16px;
+			font-weight: bold;
+			text-transform: uppercase;
+			color: #404040;
+			margin-bottom: 15px;
+			margin-top: 25px;
+		}
+		h4{
+			font-size: 18px;
+			color:#F59A0D;
+			margin-bottom: 35px;
+		}
+		p{
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+		a{
+			margin-top: 15px;
+		}
+	}
+	.ev_map{
+		iframe{
+			width: 100%;
+		}
+	}
+}
+
+#gallery{
+	padding: 40px 0;
+	.gallery_area{
+		background: #f8f8f8;
+		box-shadow: 1px 3px 8px 3px #ddd;
+		transition: all 0.9s ease;
+		padding: 15px;
+		&:hover{
+			box-shadow: none;
+		}
+		.gal_title{
+			margin-bottom: 25px;
+			h1{
+				font-size: 16px;
+				font-weight: bold;
+				text-transform: uppercase;
+				color:#F59A0D;
+				margin-top: 0;
+			}
+			h4{
+				font-size: 16px;
+				color: #404040;
+				letter-spacing: 5px;
+			}
+		}
+		.ev_gallery_img{
+			position: relative;
+			overflow: hidden;
+			img{
+				width: 100%;
+				box-shadow: 3px -2px 11px 1px #ddd;
+				transition: all 0.9s ease;
+			}
+			.overlay{
+				position: absolute;
+				bottom: 0;
+				left:50%;
+				transform: translate(-50%,-50%);
+				font-size:30px;
+				color: #fff;
+				z-index: 1;
+				opacity: 0;
+				transition: all 0.9s ease;
+				a{
+					color:#fff;
+				}
+			}
+			&:after{
+				position: absolute;
+				content: '';
+				top:0;
+				width: 100%;
+				height: 0;
+				background: #000;
+				opacity: 0;
+				transition: all 0.9s ease;
+			}
+			&:hover{
+				.overlay{
+					opacity: 1;
+					bottom: 50%;
+				}
+				&:after{
+					opacity: 0.5;
+					height: 100%;
+				}
+				img{
+					transform: rotate(5deg) scale(1.2);
+				}
+			}
+		}
+	}
+}
