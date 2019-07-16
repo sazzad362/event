@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	font-family: 'Roboto', sans-serif;
+}
+
+/*===================
+	Event page
+====================*/
+
+#event_header{
+	padding: 40px 0;
+	background: url(../images/bg-header.jpg);
+	background-size: cover;
+	background-position: center center;
+	height: calc( 100vh - 150px);
+}
+
+.header_content_area{
+	img{
+		width: 100%;
+		box-shadow: 2px 1px 8px 1px #572b6a;
+	}
+	.overlay_content{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		padding: 50px;
+		width: 100%;
+		max-width: 1000px;
+		margin: 0 auto;
+		display: block;
+		color:#fff;
+		h1{
+			text-transform: uppercase;
+			font-weight: 700;
+			letter-spacing: 10px;
+		}
+		h2{
+			font-size: 30px;
+			text-transform: uppercase;
+			letter-spacing: 10px;
+		}
+		p{
+			margin-top: 20px;
+			text-transform: uppercase;
+			letter-spacing: 4px;
+		}
+		.sd_ev_btn{
+			background: transparent;
+			border-color: #F59A0D;
+			transition: all 0.9s ease;
+			margin-top: 15px;
+			text-transform: uppercase;
+			letter-spacing: 4px;
+			&:hover{
+				background: #F59A0D;
+			}
+		}
+	}
+}
+
+.button_area{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	padding: 25px 0;
+	.menu_btn{
+		background: #441C63;
+		border-color: #441C63;
+		width: 100%;
+		margin-right: 15px;
+		padding: 15px 0;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+	.bg_red{
+		background: #EB388A;
+		border-color: #EB388A;
+	}
+	.bg_sky{
+		background: #02B8BE;
+		border-color: #02B8BE;
+	}
+}
