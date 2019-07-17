@@ -86,7 +86,6 @@ html, body {
 }
 .header_content_area .event_header_img {
   width: 100%;
-  box-shadow: 2px 1px 8px 1px #572b6a;
   display: none;
 }
 .header_content_area .overlay_content {
