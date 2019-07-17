@@ -79,6 +79,16 @@ html, body {
   z-index: -1;
   transform: scale(1.1);
 }
+#event_header:before {
+  position: absolute;
+  content: '';
+  height: 26px;
+  width: 100%;
+  bottom: -40px;
+  left: 0;
+  background: #fff;
+  z-index: 0;
+}
 
 .header_content_area {
   text-align: center;
@@ -376,6 +386,10 @@ html, body {
   .ev_address {
     padding: 0 0px 15px 15px;
   }
+
+  #event_header:before {
+    bottom: -34px;
+  }
 }
 /*******************************************************/
 /*******************************************************/
@@ -443,10 +457,10 @@ html, body {
     border-color: #F59A0D;
   }
   .event-btn-group a {
-    transition: all 0.9s ease;
+    transition: all 0.2s ease;
   }
   .event-btn-group a:hover {
-    transform: translateY(-2px);
+    color: #000;
   }
 }
 /* ==============
