@@ -319,15 +319,15 @@ html, body {
   position: absolute;
   bottom: 0;
   left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 30px;
+  transform: translate(-50%, 50%);
+  font-size: 40px;
   color: #fff;
   z-index: 1;
   opacity: 0;
   transition: all 0.9s ease;
 }
 #gallery .gallery_area .ev_gallery_img .overlay a {
-  color: #fff;
+  color: #F59A0D;
 }
 #gallery .gallery_area .ev_gallery_img:after {
   position: absolute;
