@@ -327,7 +327,7 @@ html,body{
 		position: absolute;
 		top: 30%;
 		transform: rotate(90deg);
-		left: -138px;
+		left: -160px;
 		.btn{
 			border-radius: 0;
 			background: #F59A0D;
@@ -336,6 +336,9 @@ html,body{
 				background: #F59A0D;
 				border-color: #F59A0D;
 			}
+		}
+		.videoIcon{
+			transform: rotate(270deg);
 		}
 	}
 }

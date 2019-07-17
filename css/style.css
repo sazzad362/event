@@ -356,7 +356,7 @@ html, body {
     position: absolute;
     top: 30%;
     transform: rotate(90deg);
-    left: -138px;
+    left: -160px;
   }
   .event-btn-group .btn {
     border-radius: 0;
@@ -366,6 +366,9 @@ html, body {
   .event-btn-group .btn:focus {
     background: #F59A0D;
     border-color: #F59A0D;
+  }
+  .event-btn-group .videoIcon {
+    transform: rotate(270deg);
   }
 }
 /* ==============
