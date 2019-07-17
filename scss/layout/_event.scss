@@ -21,7 +21,8 @@ html,body{
 
 
 .header_content_area{
-	img{
+	position: relative;
+	.event_header_img{
 		width: 100%;
 		box-shadow: 2px 1px 8px 1px #572b6a;
 		display: none;
@@ -254,4 +255,107 @@ html,body{
 			margin-bottom: 0;
 		}
 	}
+}
+
+
+/*******************************************************/
+// Extra large devices (large desktops, 1199px and up)
+/*******************************************************/
+@media (max-width: 1199px) {
+	.event-btn-group{
+		display: none;
+	}
+	.button_area{
+		display: block;
+	}
+}
+
+
+/*******************************************************/
+// Extra large devices (large desktops, 1200px and up)
+/*******************************************************/
+@media (min-width: 1200px) {
+
+	#event_header{
+		padding: 0;
+	    margin-bottom: 75px;
+	}
+
+	.header_content_area {
+		position: relative;
+		text-align: left;
+		transform: translateY(75px);
+		.event_header_img{
+			display: block;
+		}
+		.overlay_content{
+			position: absolute;
+			top: 50%;
+			left: 0;
+			width: 100%;
+			transform: translateY(-50%);
+			padding: 0 150px;
+			h1{
+			    font-size: 45px;
+			}
+			h2{
+				font-size: 30px;
+			}
+			h1,h2{
+			    letter-spacing: 10px;
+			}
+			p{
+			    margin-top: 20px;
+			    text-transform: uppercase;
+			    letter-spacing: 4px;
+			}
+			.sd_ev_btn{
+				display: inline-block;
+			}
+		}
+	}
+
+	#button_area{
+		display: none;
+	}
+
+	#event_details{
+		padding: 50px 0;
+	}
+
+	.event-btn-group{
+		position: absolute;
+		top: 30%;
+		transform: rotate(90deg);
+		left: -138px;
+		.btn{
+			border-radius: 0;
+			background: #F59A0D;
+			border-color: #F59A0D;
+			&:focus{
+				background: #F59A0D;
+				border-color: #F59A0D;
+			}
+		}
+	}
+}
+
+/* ==============
+		Dummy
+============*/
+.modal-body{
+	.form-control{
+		border-radius: 0;
+	}
+}
+.modal-footer{
+	.btn{
+			border-radius: 0;
+			background: #F59A0D;
+			border-color: #F59A0D;
+			&:focus{
+				background: #F59A0D;
+				border-color: #F59A0D;
+			}
+		}
 }
