@@ -22,7 +22,7 @@ html,body{
 		left: 0;
 		width: 100%;
 		height: 100%;
-		filter: blur(2px);
+		filter: blur(4px);
 		background: url(../images/bg-header.jpg);
 		background-size: cover;
 		background-position: center center;
@@ -181,6 +181,9 @@ html,body{
 	}
 	.ev_details{
 		margin-bottom: 20px;
+		a{
+			color:#F59A0D;
+		}
 	}
 	
 }
@@ -407,6 +410,12 @@ html,body{
 			&:focus{
 				background: #F59A0D;
 				border-color: #F59A0D;
+			}
+		}
+		a{
+			transition: all 0.9s ease;
+			&:hover{
+				transform:translateY(-2px);
 			}
 		}
 	}
